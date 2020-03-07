@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/navbar.component";
 import BloodBankList from "./components/bloodbank.component";
 import BloodBankSearch from "./components/bloodbanksearch.component";
+import InfoBloodBank from "./components/infoBloodBank.component";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
             <br/>
             <Route path="/" exact component={BloodBankList} />
             <Route path="/search/:query" component={BloodBankSearch} />
+            <Route path="/bloodbankinfo" component={InfoBloodBank} />
           </div>
         </Router>
     </div>

@@ -20,6 +20,8 @@ export default class BloodBankSearch extends Component {
                         <div className="col">
                             <select className="form-control mt-2" id="exampleFormControlSelect1">
                                     <option>A+</option>
+                                    <option>A-</option>
+                                    <option>O+</option>
                                     <option>O-</option>
                                     <option>B+</option>
                                     <option>AB-</option>

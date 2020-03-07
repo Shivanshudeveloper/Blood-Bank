@@ -13,6 +13,10 @@ export default class Navbar extends Component {
           <Link to="/" className="text-dark nav-link">All Blood Bank</Link>
           </li>
         </ul>
+        <Link className="btn btn-outline-primary btn-sm" to="/login">
+          <i class="fas mr-2 fa-user"></i>
+          Login / Sign Up
+        </Link>
         </div>
       </nav>
     );
